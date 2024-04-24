@@ -1,6 +1,6 @@
 #include <IRremote.h>
 
-IRrecv irrecv(11); // Đây là chân IR Receiver, không phải 11 như bình thường
+IRrecv irrecv(11); 
 decode_results results;
 
 
