@@ -31,7 +31,7 @@ void loop() {
     String keyBuf = translateIR(IRcode);
     if (keyBuf == "counter clockwise") {
       rotateCounterclockwise();
-    } else if(keyBuf == "counter clockwise") {
+    } else if(keyBuf == "clockwise") {
       rotateClockwise();
     }
     irrecv.resume(); // nhận giá trị tiếp theo
